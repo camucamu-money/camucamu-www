@@ -2,7 +2,7 @@
 {
   "en": {},
   "fr": {
-    "title": "Faîtes vos comptes plus facilement",
+    "title": "Faîtes vos comptes plus facilement !",
     "subtitle": "Développé dans le but de rendre la gestion des comptes bancaires plus simples, CamuCamu vous permet de faire vos comptes en toute simplicité et de manière sécurisé. Plus de tableau excel illisible enregistrez vos opérations bancaires et retrouvez-les quand vous le voulez.",
     "cta": "Commencer"
   }
@@ -14,7 +14,7 @@
     <div class="floatline--content">
       <h1 class="md-display-3">{{ $t('title') }}</h1>
       <h2 class="md-subheading">{{ $t('subtitle')}}</h2>
-      <md-button class="md-raised md-primary">{{ $t('cta') }}</md-button>
+      <md-button class="md-raised md-primary" :href="$store.state.appUrl">{{ $t('cta') }}</md-button>
     </div>
     <div class="floatline--img">
       <div class="is__container__img">

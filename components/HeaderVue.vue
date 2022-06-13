@@ -26,7 +26,7 @@
       <md-tab :md-label="$t('nav[0]')" :to="{ path: '/' }"></md-tab>
       <md-tab :md-label="$t('nav[1]')" :to="{ path: '/' }"></md-tab>
     </md-tabs>
-    <md-button class="md-raised md-primary">{{ $t('cta') }}</md-button>
+    <md-button :href="$store.state.appUrl" target="_blank">{{ $t('cta') }}</md-button>
   </header>
 </template>
 
