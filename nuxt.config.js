@@ -23,11 +23,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    { src: 'vue-material/dist/vue-material.min.css', lang: 'css' },
     '@/assets/main.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/vue-material' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -47,6 +49,23 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
+    [
+      '@nuxtjs/i18n',
+      {
+        locales: [
+          {
+            code: 'en',
+            name: 'English'
+          },
+          {
+            code: 'fr',
+            name: 'Français'
+          }
+        ],
+        defaultLocale: 'fr',
+        vueI18nLoader: true,
+      },
+    ]
   ],
 
   styleResources: {

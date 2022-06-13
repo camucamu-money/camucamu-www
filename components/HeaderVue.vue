@@ -1,18 +1,32 @@
+<i18n>
+{
+  "en": {
+    "nav": [
+      "About",
+      "Features"
+    ],
+    "cta": "Start"
+  },
+  "fr": {
+    "nav": [
+      "À propos",
+      "Fonctionnalités"
+    ],
+    "cta": "Commencer"
+  }
+}
+</i18n>
+
 <template>
   <header class="header">
     <div class="is__container__img header--logo">
       <logo></logo>
     </div>
-    <nav class="header--menu">
-      <ul>
-        <li>
-          <nuxt-link :to="{ path: '/'}">À propos</nuxt-link>
-        </li>
-        <li>
-          <nuxt-link :to="{ path: '/' }">Fonctionnalités</nuxt-link>
-        </li>
-      </ul>
-    </nav>
+    <md-tabs md-alignment="right" style="margin-left:auto;">
+      <md-tab :md-label="$t('nav[0]')" :to="{ path: '/' }"></md-tab>
+      <md-tab :md-label="$t('nav[1]')" :to="{ path: '/' }"></md-tab>
+    </md-tabs>
+    <md-button class="md-raised md-primary">{{ $t('cta') }}</md-button>
   </header>
 </template>
 
@@ -33,8 +47,7 @@ export default {
   box-sizing: border-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
-  height: 3rem;
-  justify-content: space-between;
+  height: 4rem;
   position: sticky;
   width: 100%;
 
