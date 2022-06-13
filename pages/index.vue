@@ -1,6 +1,6 @@
 <template>
-  <section class="home container">
-    <h1>Hello world !</h1>
+  <section class="container">
+    <header-vue></header-vue>
   </section>
 </template>
 
