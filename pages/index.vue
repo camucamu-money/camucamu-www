@@ -2,6 +2,7 @@
   <section class="container">
     <header-vue></header-vue>
     <floatline></floatline>
+    <featured></featured>
   </section>
 </template>
 

@@ -40,7 +40,7 @@ export default {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  height: calc(100vh - 4rem);
+  height: calc(90vh - 4rem);
 
   &--content {
     margin-right: 2rem;
