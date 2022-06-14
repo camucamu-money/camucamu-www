@@ -1,6 +1,10 @@
 <i18n>
 {
-  "en": {},
+  "en": {
+    "title": "Manage your bank accounts easily !",
+    "subtitle": "Created for making",
+    "cta": "Start"
+  },
   "fr": {
     "title": "Faîtes vos comptes plus facilement !",
     "subtitle": "Développé dans le but de rendre la gestion des comptes bancaires plus simples, CamuCamu vous permet de faire vos comptes en toute simplicité et de manière sécurisé. Plus de tableau excel illisible enregistrez vos opérations bancaires et retrouvez-les quand vous le voulez.",

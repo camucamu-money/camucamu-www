@@ -5,20 +5,22 @@
       "About",
       "Features"
     ],
-    "cta": "Start"
+    "cta": "Start",
+    "dropdownLabel": "Language"
   },
   "fr": {
     "nav": [
       "À propos",
       "Fonctionnalités"
     ],
-    "cta": "Commencer"
+    "cta": "Commencer",
+    "dropdownLabel": "Langage"
   }
 }
 </i18n>
 
 <template>
-  <header class="header">
+  <header class="header" ref="h">
     <div class="is__container__img header--logo">
       <logo></logo>
     </div>
@@ -27,6 +29,17 @@
       <md-tab :md-label="$t('nav[1]')" :to="{ path: '/' }"></md-tab>
     </md-tabs>
     <md-button :href="$store.state.appUrl" target="_blank">{{ $t('cta') }}</md-button>
+    <!-- <md-field>
+      <label for="lang">{{ $t('dropdownLabel') }}</label>
+      <md-select v-model="lg" id="lang">
+        <md-option
+        v-for="(l, i) in lang"
+        :key="i"
+        :value="l.code">
+          {{ l.name }}
+        </md-option>
+      </md-select>
+    </md-field> -->
   </header>
 </template>
 
@@ -38,17 +51,59 @@ export default {
   components: {
     Logo,
   },
+    created() {
+    if (process.browser) {
+      let lastScrollTop = 0;
+  
+      window.addEventListener('scroll', () => {
+        if (!this.$refs.h) return false;
+        const header = this.$refs.h;
+        const isDisplayNone = 'is__header_hidden';
+        const isHeaderVisible = 'is__header__visible';
+        const st = window.pageYOffset || document.documentElement.scrollTop;
+  
+        if (st > lastScrollTop) {
+          lastScrollTop = st <= 0 ? 0 : st;
+          if (header.classList.contains(isDisplayNone)) {
+            return false;
+          };
+          header.classList.add(isDisplayNone);
+          header.classList.remove(isHeaderVisible);
+          return true;
+        }
+  
+        lastScrollTop = st <= 0 ? 0 : st;
+        if (header.classList.contains(isDisplayNone)) {
+          header.classList.remove(isDisplayNone);
+          header.classList.add(isHeaderVisible);
+        }
+        return true;
+      });
+    }
+  },
+  data() {
+    return {
+      lg: null,
+    }; 
+  },
+  computed: {
+    lang() {
+      return this.$i18n.locales;
+    },
+  },
 }
 </script>
 
 <style lang="scss" scoped>
 .header {
+  background-color: #FFF;
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   display: flex;
   height: 4rem;
   position: sticky;
+  transition: top .5s;
   width: 100%;
 
   &--logo {

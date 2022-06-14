@@ -27,3 +27,11 @@
     object-fit: cover;
   }
 }
+
+.is__header__visible {
+  top: 0;
+}
+
+.is__header_hidden {
+  top: -85px;
+}
