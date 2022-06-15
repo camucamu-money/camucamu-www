@@ -29,17 +29,6 @@
       <md-tab :md-label="$t('nav[1]')" :to="{ path: '/' }"></md-tab>
     </md-tabs>
     <md-button :href="$store.state.appUrl" target="_blank">{{ $t('cta') }}</md-button>
-    <!-- <md-field>
-      <label for="lang">{{ $t('dropdownLabel') }}</label>
-      <md-select v-model="lg" id="lang">
-        <md-option
-        v-for="(l, i) in lang"
-        :key="i"
-        :value="l.code">
-          {{ l.name }}
-        </md-option>
-      </md-select>
-    </md-field> -->
   </header>
 </template>
 
@@ -85,11 +74,6 @@ export default {
     return {
       lg: null,
     }; 
-  },
-  computed: {
-    lang() {
-      return this.$i18n.locales;
-    },
   },
 }
 </script>

@@ -49,17 +49,18 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/style-resources',
+    'cookie-universal-nuxt',
     [
       '@nuxtjs/i18n',
       {
         locales: [
           {
             code: 'en',
-            name: 'English'
+            name: 'English (Anglais)'
           },
           {
             code: 'fr',
-            name: 'Français'
+            name: 'Français (France)'
           }
         ],
         defaultLocale: 'fr',
