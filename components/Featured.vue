@@ -17,7 +17,7 @@
 </i18n>
 
 <template>
-  <section class="featured container">
+  <section class="featured container" id="featured">
     <div class="featured--header">
       <h3 class="md-headline">{{ $t('titleTag') }}</h3>
       <div class="md-subheading">{{ $t('subTitle') }}</div>

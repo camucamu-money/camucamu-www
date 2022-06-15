@@ -14,7 +14,7 @@
 </i18n>
 
 <template>
-  <section class="about container">
+  <section class="about container" id="about">
     <div class="about--title">
       <h2 class="md-display-2">{{ $t('mainTitle') }}</h2>
     </div>

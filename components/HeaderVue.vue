@@ -25,8 +25,8 @@
       <logo></logo>
     </div>
     <md-tabs md-alignment="right" style="margin-left:auto;">
-      <md-tab :md-label="$t('nav[0]')" :to="{ path: '/' }"></md-tab>
-      <md-tab :md-label="$t('nav[1]')" :to="{ path: '/' }"></md-tab>
+      <md-tab :md-label="$t('nav[0]')" :to="{ path: '/', hash: '#about' }"></md-tab>
+      <md-tab :md-label="$t('nav[1]')" :to="{ path: '/', hash: '#featured' }"></md-tab>
     </md-tabs>
     <md-button :href="$store.state.appUrl" target="_blank">{{ $t('cta') }}</md-button>
   </header>
