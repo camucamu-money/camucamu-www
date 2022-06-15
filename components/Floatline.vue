@@ -14,7 +14,7 @@
 </i18n>
 
 <template>
-  <section class="floatline">
+  <section class="floatline container">
     <div class="floatline--content">
       <h1 class="md-display-3">{{ $t('title') }}</h1>
       <h2 class="md-subheading">{{ $t('subtitle')}}</h2>

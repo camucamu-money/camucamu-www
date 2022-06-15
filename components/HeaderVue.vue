@@ -20,7 +20,7 @@
 </i18n>
 
 <template>
-  <header class="header" ref="h">
+  <header class="header container" ref="h">
     <div class="is__container__img header--logo">
       <logo></logo>
     </div>

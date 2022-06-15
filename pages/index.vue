@@ -1,9 +1,10 @@
 <template>
-  <section class="container">
+  <section>
     <header-vue></header-vue>
     <floatline></floatline>
     <about></about>
     <featured></featured>
+    <bandeau></bandeau>
     <footer-vue @cookieDone="cookieDone"></footer-vue>
     <cookie v-if="showCookieSettings" @cookieDone="cookieDone"></cookie>
   </section>

@@ -20,7 +20,7 @@
 </i18n>
 
 <template>
-  <footer class="px-3">
+  <footer class="px-3 container">
     <section class="container-fluid">
       <nav class="row d-flex footer-nav-top">
         <div class="logo-wrap">
