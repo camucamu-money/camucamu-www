@@ -156,6 +156,10 @@ export default {
           list: [
             {
               contenti18n: 'about',
+              link: {
+                path: '/',
+                hash: '#about',
+              },
             },
             {
               content: 'mailto:contact@camucamu.money',
