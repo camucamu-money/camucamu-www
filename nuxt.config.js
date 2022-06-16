@@ -56,15 +56,14 @@ export default {
       {
         locales: [
           {
+            code: 'fr',
+            name: 'Français (France)'
+          },
+          {
             code: 'en',
             name: 'English (Anglais)'
           },
-          {
-            code: 'fr',
-            name: 'Français (France)'
-          }
         ],
-        defaultLocale: 'fr',
         vueI18nLoader: true,
       },
     ]

@@ -2,7 +2,7 @@
 {
   "en": {
     "title": "Manage your bank accounts easily !",
-    "subtitle": "Created for making",
+    "subtitle": "Developed with the aim of making the management of bank accounts simpler, CamuCamu allows you to make your accounts easily and securely. No more illegible excel spreadsheet save your banking transactions and find them whenever you want.",
     "cta": "Start"
   },
   "fr": {

@@ -2,7 +2,12 @@
 {
   "en": {
     "titleTag": "Featured",
-    "subTitle": "Why we're different"
+    "subTitle": "Why we're different",
+    "items": [
+      "Add your different bank balances | You can add as many bank balances as you want once created, save the different banking operations that pass between your different accounts.",
+      "Organize your banking transactions | Enter your bank transactions manually, automatically obtain the balance after transactions, sort, filter your transactions by bank accounts or for all your accounts, the choice is yours.",
+      "Safety is our priority | You will not be asked for any bank identifiers, you enter your banking operations manually, your data is secure and only accessible by you alone !"
+    ]
   },
   "fr": {
     "titleTag": "Fonctionnalités",

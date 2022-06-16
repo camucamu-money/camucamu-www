@@ -1,7 +1,11 @@
 <i18n>
 {
   "en": {
-    "mainTitle": "Why we even exist ?"
+    "mainTitle": "Why we even exist ?",
+    "firstContent": "Web application available only on computers, CamuCamu aims to facilitate the management of individual bank accounts.",
+    "secondContent": "By combining security and simplicity, we are committed to providing you with the best service available which will allow you to save time when organizing your bank accounts, you will be able to register your various banking operations of your various balances in a secure manner. No bank identifiers are required !",
+    "thirdContent": "We think that the management of bank accounts is still too complicated and that there are no services allowing for example to simply find the amount of your balance after X transactions, to have an intuitive and simple digital interface or you will find the operations for your different bank balances...",
+    "fourContent": "All of these points are important, which is why we work every day to improve our services, which can save you valuable time."
   },
   "fr": {
     "mainTitle": "Qui sommes-nous ?",
