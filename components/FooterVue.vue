@@ -173,7 +173,7 @@ export default {
           showPopup: false,
           dropdown: this.$i18n.locales.map((lg) => ({
             ...lg,
-            active: this.$route.path === `/${lg.code}`,
+            active: this.$route.path.split('/')[1] === lg.code,
           })),
         },
         {
@@ -217,7 +217,7 @@ export default {
       });
 
       this.columnsBottom = [...newColumnsBottom];
-      this.$router.replace(this.switchLocalePath(newValue));
+      this.$router.push(this.switchLocalePath(newValue));
     },
   },
 };
