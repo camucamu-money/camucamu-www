@@ -9,10 +9,10 @@
   },
   "fr": {
     "mainTitle": "Qui sommes-nous ?",
-    "firstContent": "Application web disponible seulement sur ordinateurs, CamuCamu a pour objectif de faciliter la gestion des comptes bancaires des particuliers.",
+    "firstContent": "Application web disponible seulement sur ordinateur, CamuCamu a pour objectif de faciliter la gestion des comptes bancaires des particuliers.",
     "secondContent": "En associant sécurité et simplicité nous avons à coeur de vous fournir le meilleur service disponible qui vous permettra de gagner du temps lorsque vous organisez vos comptes bancaires, vous aurez la possibilité d'inscrire vos différentes opérations bancaires de vos différents soldes de maniére sécurisée. Aucun identifiants bancaires n'est demandé !",
-    "thirdContent": "Nous pensons que la gestion des comptes bancaires est encore trop compliqué et qu'il n'existe pas de services permettant par exemple de retrouver simplement le montant de votre solde après X opérations, d'avoir une interface digitale intuitive et simple ou en clin d'oeil vous retrouvez les opérations pour vos différents soldes bancaires...",
-    "fourContent": "Tous ces points sont importants, c'est pourquoi nous travaillons chaque jour pour améliorer nos services qui peuvent vous permettre de gagner un précieux temps."
+    "thirdContent": "Nous pensons que la gestion des comptes bancaires est encore trop compliquée il n'existe pas de services permettant par exemple de retrouver simplement le montant de votre solde après X opérations, d'avoir une interface digitale intuitive et simple où en un clin d'oeil vous retrouvez les opérations pour vos différents soldes bancaires...",
+    "fourContent": "Tous ces points sont importants, c'est pourquoi nous travaillons chaque jour pour améliorer nos services qui peuvent vous permettre de gagner un temps précieux."
   }
 }
 </i18n>

@@ -13,9 +13,9 @@
     "titleTag": "Fonctionnalités",
     "subTitle": "Ce que nous proposons",
     "items": [
-      "Ajoutez vos différents soldes bancaires | Vous pouvez ajoutez autant de soldes bancaires que vous désirez une fois crée, enregistrez les différentes opérations bancaires qui transitent entre vos différents comptes.",
+      "Ajoutez vos différents soldes bancaires | Vous pouvez ajoutez autant de soldes bancaires que vous désirez une fois crées, enregistrez les différentes opérations bancaires qui transitent entre vos différents comptes.",
       "Organisez vos opérations bancaires | Inscrivez vos opérations bancaires manuellement, obtenez automatiquement le solde après opérations, triez, filtrez vos opérations par comptes bancaires ou bien pour tous vos comptes c'est vous qui choissisez.",
-      "La sécurité est notre priorité | Aucun identifiants bancaires ne vous sera demandé, vous rentrez manuellement vos opérations bancaires, vos données sont sécurisées et seulement accessible par vous seul !"
+      "La sécurité est notre priorité | Aucun identifiants bancaires ne vous sera demandé, vous rentrez manuellement vos opérations bancaires, vos données sont sécurisées et seulement accessibles par vous seul !"
     ]
   }
 }
