@@ -156,6 +156,10 @@ export default {
           list: [
             {
               contenti18n: 'about',
+              link: {
+                path: '/',
+                hash: '#about',
+              },
             },
             {
               content: 'mailto:contact@camucamu.money',
@@ -169,7 +173,7 @@ export default {
           showPopup: false,
           dropdown: this.$i18n.locales.map((lg) => ({
             ...lg,
-            active: lg.code === 'fr'
+            active: this.$route.path.split('/')[1] === lg.code,
           })),
         },
         {
@@ -213,7 +217,7 @@ export default {
       });
 
       this.columnsBottom = [...newColumnsBottom];
-      this.$i18n.locale = newValue;
+      this.$router.push(this.switchLocalePath(newValue));
     },
   },
 };

@@ -2,15 +2,20 @@
 {
   "en": {
     "titleTag": "Featured",
-    "subTitle": "Why we're different"
+    "subTitle": "Why we're different",
+    "items": [
+      "Add your different bank balances | You can add as many bank balances as you want once created, save the different banking operations that pass between your different accounts.",
+      "Organize your banking transactions | Enter your bank transactions manually, automatically obtain the balance after transactions, sort, filter your transactions by bank accounts or for all your accounts, the choice is yours.",
+      "Safety is our priority | You will not be asked for any bank identifiers, you enter your banking operations manually, your data is secure and only accessible by you alone !"
+    ]
   },
   "fr": {
     "titleTag": "Fonctionnalités",
     "subTitle": "Ce que nous proposons",
     "items": [
-      "Ajoutez vos différents soldes bancaires | Vous pouvez ajoutez autant de soldes bancaires que vous désirez une fois crée, enregistrez les différentes opérations bancaires qui transitent entre vos différents comptes.",
+      "Ajoutez vos différents soldes bancaires | Vous pouvez ajoutez autant de soldes bancaires que vous désirez une fois crées, enregistrez les différentes opérations bancaires qui transitent entre vos différents comptes.",
       "Organisez vos opérations bancaires | Inscrivez vos opérations bancaires manuellement, obtenez automatiquement le solde après opérations, triez, filtrez vos opérations par comptes bancaires ou bien pour tous vos comptes c'est vous qui choissisez.",
-      "La sécurité est notre priorité | Aucun identifiants bancaires ne vous sera demandé, vous rentrez manuellement vos opérations bancaires, vos données sont sécurisées et seulement accessible par vous seul !"
+      "La sécurité est notre priorité | Aucun identifiants bancaires ne vous sera demandé, vous rentrez manuellement vos opérations bancaires, vos données sont sécurisées et seulement accessibles par vous seul !"
     ]
   }
 }

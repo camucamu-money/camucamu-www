@@ -10,11 +10,11 @@ export default {
     cache: false,
   },
   head: {
-    title: 'camucamu-www',
+    title: 'CamuCamu - Faîtes vos comptes plus facilement.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'CamuCamu est un site web qui facilite la gestion des comptes bancaires en inscrivant manuellement vos opérations bancaires de manière sécurisée.' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -56,15 +56,14 @@ export default {
       {
         locales: [
           {
+            code: 'fr',
+            name: 'Français (France)'
+          },
+          {
             code: 'en',
             name: 'English (Anglais)'
           },
-          {
-            code: 'fr',
-            name: 'Français (France)'
-          }
         ],
-        defaultLocale: 'fr',
         vueI18nLoader: true,
       },
     ]

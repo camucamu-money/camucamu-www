@@ -25,14 +25,15 @@
       <logo></logo>
     </div>
     <md-tabs md-alignment="right" style="margin-left:auto;">
-      <md-tab :md-label="$t('nav[0]')" :to="{ path: '/', hash: '#about' }"></md-tab>
-      <md-tab :md-label="$t('nav[1]')" :to="{ path: '/', hash: '#featured' }"></md-tab>
+      <md-tab :md-label="$t('nav[0]')" :to="{ path: $route.path, hash: '#about' }"></md-tab>
+      <md-tab :md-label="$t('nav[1]')" :to="{ path: $route.path, hash: '#featured' }"></md-tab>
     </md-tabs>
     <md-button :href="$store.state.appUrl" target="_blank">{{ $t('cta') }}</md-button>
   </header>
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import Logo from '@/assets/img/logo.svg?inline';
 
 export default {
@@ -40,7 +41,10 @@ export default {
   components: {
     Logo,
   },
-    created() {
+  computed: {
+    ...mapState(['language']),
+  },
+  created() {
     if (process.browser) {
       let lastScrollTop = 0;
   
@@ -69,11 +73,6 @@ export default {
         return true;
       });
     }
-  },
-  data() {
-    return {
-      lg: null,
-    }; 
   },
 }
 </script>

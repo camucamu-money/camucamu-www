@@ -19,7 +19,7 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: 'npm'
       - run: npm ci --prefer-offline --no-audit
-      - run: npm run generate --fail-on-error
+      - run: NODE_ENV=development npm run generate --fail-on-error --devtools
 
       - name: Deploy S3
         uses: jakejarvis/s3-sync-action@be0c4ab89158cac4278689ebedd8407dd5f35a83
